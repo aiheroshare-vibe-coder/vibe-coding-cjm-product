@@ -1,0 +1,15 @@
+[build]
+  # Путь к папке с package.json (от корня репозитория)
+  base    = "Vibe Coding/lovable-project-891ecaff-45ad-4e00-980d-b9de14ca8cd0-2026-03-10"
+  command = "npm run build"
+  # publish — относительно корня репозитория
+  publish = "Vibe Coding/lovable-project-891ecaff-45ad-4e00-980d-b9de14ca8cd0-2026-03-10/dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# SPA fallback: все пути отдаём index.html, React Router сам разберётся
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 200
