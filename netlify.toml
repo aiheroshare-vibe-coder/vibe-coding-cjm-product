@@ -1,7 +1,7 @@
 [build]
-  # Явный cd вместо base= — обходит проблему с пробелом в имени папки
-  command = "cd 'Vibe Coding/lovable-project-891ecaff-45ad-4e00-980d-b9de14ca8cd0-2026-03-10' && npm install && npm run build"
-  publish = "Vibe Coding/lovable-project-891ecaff-45ad-4e00-980d-b9de14ca8cd0-2026-03-10/dist"
+  # Base directory задан в UI Netlify — здесь только команда и папка вывода
+  command = "npm install && npm run build"
+  publish = "dist"
 
 [build.environment]
   NODE_VERSION = "20"
