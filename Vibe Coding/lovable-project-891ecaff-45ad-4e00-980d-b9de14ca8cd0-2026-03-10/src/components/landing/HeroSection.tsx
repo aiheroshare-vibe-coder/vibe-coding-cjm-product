@@ -38,8 +38,8 @@ const HeroSection = () => (
           </motion.p>
 
           <motion.div variants={fadeUp} custom={3} className="flex flex-col sm:flex-row gap-3">
-            <a href="#roadmap" className="btn-primary-landing text-center">Попробовать демо</a>
-            <a href="#roadmap" className="btn-secondary-landing text-center">Запросить корпоративный пилот</a>
+            <a href="#waitlist" className="btn-primary-landing text-center">Вступить в waitlist</a>
+            <a href="#waitlist" className="btn-secondary-landing text-center">Запросить корпоративный пилот</a>
           </motion.div>
 
           <motion.div variants={fadeUp} custom={4} className="flex flex-wrap gap-2 pt-2">

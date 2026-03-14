@@ -63,7 +63,7 @@ const RoadmapSection = () => {
             <p className="text-sm text-muted-foreground mb-6 leading-relaxed">
               Получить ранний доступ и протестировать рабочий поток на своих кейсах
             </p>
-            <a href="#footer" className="btn-primary-landing w-full sm:w-auto text-center">Вступить в waitlist</a>
+            <a href="#waitlist" className="btn-primary-landing w-full sm:w-auto text-center">Вступить в waitlist</a>
           </motion.div>
 
           <motion.div
@@ -79,7 +79,7 @@ const RoadmapSection = () => {
             <p className="text-sm text-muted-foreground mb-6 leading-relaxed">
               Обсудить пилот для оптимизации cost на CJM/R&D и конкурентный анализ флоу
             </p>
-            <a href="#footer" className="btn-secondary-landing w-full sm:w-auto text-center border-accent/30 hover:bg-accent/5">Запросить пилот</a>
+            <a href="#waitlist" className="btn-secondary-landing w-full sm:w-auto text-center border-accent/30 hover:bg-accent/5">Запросить пилот</a>
           </motion.div>
         </div>
 
